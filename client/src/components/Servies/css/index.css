@@ -1,0 +1,19 @@
+.mainMod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgMod:hover {
+  transform: scale(1.2);
+}
+
+.imgMod {
+  width: 360px;
+  height: 340px;
+  margin: 10px;
+}
+
+.imgOpMod {
+  width: 100%;
+}
