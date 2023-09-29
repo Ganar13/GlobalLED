@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "webpack -d eval-source-map && babel src --copy-files --out-dir distr",
-    "start": "node distr/server.js",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
